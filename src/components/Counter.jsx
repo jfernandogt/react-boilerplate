@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import {increment, decrement} from '../actions';
+import { connect } from 'react-redux';
 
-export default class Counter extends Component {
+class Counter extends Component {
 	constructor(props) {
 		super(props);
 		this.increment = this.increment.bind(this);
@@ -28,3 +29,5 @@ export default class Counter extends Component {
     );
   }
 }
+
+export default connect()(Counter);

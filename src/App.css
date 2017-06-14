@@ -18,6 +18,20 @@
   font-size: large;
 }
 
+
+.button-counter {
+  height: 30px;
+  width: 30px;
+  border: 1px solid #ccc;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  font-size: 25px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
